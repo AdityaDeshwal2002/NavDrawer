@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn = "nav_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_view"
+            android:title="Home View"/>
+        <item android:id="@+id/message_view"
+            android:title="Message View"/>
+        <item android:id="@+id/settings_view"
+            android:title="Settings View"/>
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/login"
+                    android:title="Login"/>
+            </group>
+        </menu>
+    </item>
+</menu>
